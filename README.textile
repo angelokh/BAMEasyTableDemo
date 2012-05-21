@@ -1,0 +1,5 @@
+h1. Add SVPullToRefresh to the demo
+
+SVPullToRefresh allows you to easily add pull-to-refresh functionality to any @UIScrollView@ subclass with only 1 line of code.
+
+Please see https://github.com/samvermette/SVPullToRefresh for details.
