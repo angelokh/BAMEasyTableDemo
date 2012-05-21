@@ -42,6 +42,7 @@
 #import "IndexedViewController.h"
 #import "AddAndDeleteViewController.h"
 #import "DetailAndImageViewController.h"
+#import "PullToRefreshViewController.h"
 
 @implementation RootViewController
 
@@ -50,6 +51,7 @@
 @synthesize indexedButton;
 @synthesize addAndDeleteButton;
 @synthesize detailAndImageButton;
+@synthesize pullToRefreshButton;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -69,6 +71,7 @@
     [groupedButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
     [indexedButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
     [detailAndImageButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
+    [pullToRefreshButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
     [addAndDeleteButton setBackgroundImage:buttonImage forState:UIControlStateNormal];
 }
 
@@ -77,6 +80,7 @@
     [self setGroupedButton:nil];
     [self setIndexedButton:nil];
     [self setDetailAndImageButton:nil];
+    [self setPullToRefreshButton:nil];
     [self setAddAndDeleteButton:nil];
     [super viewDidUnload];
 }
@@ -86,6 +90,7 @@
     [groupedButton release];
     [indexedButton release];
     [detailAndImageButton release];
+    [pullToRefreshButton release];
     [addAndDeleteButton release];
     [super dealloc];
 }
@@ -115,6 +120,11 @@
         DetailAndImageViewController *detailAndImageDemo = [[DetailAndImageViewController alloc] initWithNibName:@"DetailAndImageViewController" bundle:nil];
         [self.navigationController pushViewController:detailAndImageDemo animated:YES];
         [detailAndImageDemo release];
+    } else if (sender == pullToRefreshButton) {
+        // Creating and pushing the detail and images demo view.
+        PullToRefreshViewController *pullDemo = [[PullToRefreshViewController alloc] initWithNibName:@"PullToRefreshViewController" bundle:nil];
+        [self.navigationController pushViewController:pullDemo animated:YES];
+        [pullDemo release];
     } else if (sender == addAndDeleteButton) {
         // Creating and pushing the add and remove demo view.
         AddAndDeleteViewController *addAndRemoveDemo = [[AddAndDeleteViewController alloc] initWithNibName:@"AddAndDeleteViewController" bundle:nil];

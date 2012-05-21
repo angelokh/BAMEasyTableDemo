@@ -11,7 +11,6 @@
 		4C146B5C1418E06C00717412 /* Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C146B5A1418E06C00717412 /* Button@2x.png */; };
 		4C146B8A141B50E000717412 /* AddAndDeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C146B78141B50E000717412 /* AddAndDeleteViewController.m */; };
 		4C146B8B141B50E000717412 /* AddAndDeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C146B79141B50E000717412 /* AddAndDeleteViewController.xib */; };
-		4C146B8C141B50E000717412 /* DetailAndImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C146B7C141B50E000717412 /* DetailAndImageViewController.m */; };
 		4C146B8D141B50E000717412 /* DetailAndImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C146B7D141B50E000717412 /* DetailAndImageViewController.xib */; };
 		4C146B8E141B50E000717412 /* GroupedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C146B80141B50E000717412 /* GroupedViewController.m */; };
 		4C146B8F141B50E000717412 /* GroupedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C146B81141B50E000717412 /* GroupedViewController.xib */; };
@@ -224,6 +223,13 @@
 		4CFB5B851418C1F900A087E1 /* BackgroundLaunch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB5B831418C1F900A087E1 /* BackgroundLaunch@2x.png */; };
 		4CFB5B881418C39F00A087E1 /* BackgroundNoLogos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB5B861418C39F00A087E1 /* BackgroundNoLogos.png */; };
 		4CFB5B891418C39F00A087E1 /* BackgroundNoLogos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CFB5B871418C39F00A087E1 /* BackgroundNoLogos@2x.png */; };
+		528F3A1C156AE2C4003FEB2D /* PullToRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528F3968156AE2C3003FEB2D /* PullToRefreshViewController.m */; };
+		528F3A1D156AE2C4003FEB2D /* PullToRefreshViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528F3969156AE2C3003FEB2D /* PullToRefreshViewController.xib */; };
+		528F3ACD156AE73F003FEB2D /* DetailAndImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C146B7C141B50E000717412 /* DetailAndImageViewController.m */; };
+		52E1F56D156AF06D00CC0A07 /* SVPullToRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52E1F56A156AF06D00CC0A07 /* SVPullToRefresh.bundle */; };
+		52E1F56E156AF06D00CC0A07 /* SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E1F56C156AF06D00CC0A07 /* SVPullToRefresh.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		52E1F572156AF12F00CC0A07 /* PullToRefreshTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E1F571156AF12F00CC0A07 /* PullToRefreshTable.m */; };
+		52E1F574156AF47D00CC0A07 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E1F573156AF47D00CC0A07 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -459,6 +465,15 @@
 		4CFB5B831418C1F900A087E1 /* BackgroundLaunch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundLaunch@2x.png"; sourceTree = "<group>"; };
 		4CFB5B861418C39F00A087E1 /* BackgroundNoLogos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundNoLogos.png; sourceTree = "<group>"; };
 		4CFB5B871418C39F00A087E1 /* BackgroundNoLogos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundNoLogos@2x.png"; sourceTree = "<group>"; };
+		528F3967156AE2C3003FEB2D /* PullToRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshViewController.h; sourceTree = "<group>"; };
+		528F3968156AE2C3003FEB2D /* PullToRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshViewController.m; sourceTree = "<group>"; };
+		528F3969156AE2C3003FEB2D /* PullToRefreshViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PullToRefreshViewController.xib; sourceTree = "<group>"; };
+		52E1F56A156AF06D00CC0A07 /* SVPullToRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVPullToRefresh.bundle; sourceTree = "<group>"; };
+		52E1F56B156AF06D00CC0A07 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		52E1F56C156AF06D00CC0A07 /* SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPullToRefresh.m; sourceTree = "<group>"; };
+		52E1F570156AF12F00CC0A07 /* PullToRefreshTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTable.h; sourceTree = "<group>"; };
+		52E1F571156AF12F00CC0A07 /* PullToRefreshTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTable.m; sourceTree = "<group>"; };
+		52E1F573156AF47D00CC0A07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +481,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E1F574156AF47D00CC0A07 /* QuartzCore.framework in Frameworks */,
 				4CFB5B1F1418B3B400A087E1 /* UIKit.framework in Frameworks */,
 				4CFB5B211418B3B400A087E1 /* Foundation.framework in Frameworks */,
 				4CFB5B231418B3B400A087E1 /* CoreGraphics.framework in Frameworks */,
@@ -720,6 +736,7 @@
 		4CFB5B0F1418B3B400A087E1 = {
 			isa = PBXGroup;
 			children = (
+				52E1F573156AF47D00CC0A07 /* QuartzCore.framework */,
 				4CFB5B241418B3B400A087E1 /* BAMEasyTableDemo */,
 				4CFB5B1D1418B3B400A087E1 /* Frameworks */,
 				4CFB5B1B1418B3B400A087E1 /* Products */,
@@ -747,6 +764,7 @@
 		4CFB5B241418B3B400A087E1 /* BAMEasyTableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				52E1F569156AF06D00CC0A07 /* SVPullToRefresh */,
 				4CFB5B2D1418B3B400A087E1 /* BAMEasyTableDemoAppDelegate.h */,
 				4CFB5B2E1418B3B400A087E1 /* BAMEasyTableDemoAppDelegate.m */,
 				4CFB5B301418B3B400A087E1 /* MainWindow.xib */,
@@ -755,6 +773,7 @@
 				4CFB5B5E1418B74000A087E1 /* RootViewController.xib */,
 				4CFB5B601418B7F000A087E1 /* BAMEasyTable.h */,
 				4CFB5B611418B7F100A087E1 /* BAMEasyTable.m */,
+				528F3966156AE2C3003FEB2D /* PullToRefresh */,
 				4C146B86141B50E000717412 /* Simple */,
 				4C146B7E141B50E000717412 /* Grouped */,
 				4C146B82141B50E000717412 /* Indexed */,
@@ -791,6 +810,28 @@
 				4CFB5B491418B43C00A087E1 /* iTunesArtwork.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528F3966156AE2C3003FEB2D /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				528F3967156AE2C3003FEB2D /* PullToRefreshViewController.h */,
+				528F3968156AE2C3003FEB2D /* PullToRefreshViewController.m */,
+				528F3969156AE2C3003FEB2D /* PullToRefreshViewController.xib */,
+				52E1F570156AF12F00CC0A07 /* PullToRefreshTable.h */,
+				52E1F571156AF12F00CC0A07 /* PullToRefreshTable.m */,
+			);
+			path = PullToRefresh;
+			sourceTree = "<group>";
+		};
+		52E1F569156AF06D00CC0A07 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				52E1F56A156AF06D00CC0A07 /* SVPullToRefresh.bundle */,
+				52E1F56B156AF06D00CC0A07 /* SVPullToRefresh.h */,
+				52E1F56C156AF06D00CC0A07 /* SVPullToRefresh.m */,
+			);
+			path = SVPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1044,6 +1085,8 @@
 				4C6902711422041A00E5CBE4 /* Icon-Washington@2x.png in Resources */,
 				4C6902721422041A00E5CBE4 /* Icon-Wilson.png in Resources */,
 				4C6902731422041A00E5CBE4 /* Icon-Wilson@2x.png in Resources */,
+				528F3A1D156AE2C4003FEB2D /* PullToRefreshViewController.xib in Resources */,
+				52E1F56D156AF06D00CC0A07 /* SVPullToRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,11 +1098,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CFB5B2C1418B3B400A087E1 /* main.m in Sources */,
+				528F3ACD156AE73F003FEB2D /* DetailAndImageViewController.m in Sources */,
 				4CFB5B2F1418B3B400A087E1 /* BAMEasyTableDemoAppDelegate.m in Sources */,
 				4CFB5B351418B3B400A087E1 /* RootViewController.m in Sources */,
 				4CFB5B621418B7F100A087E1 /* BAMEasyTable.m in Sources */,
 				4C146B8A141B50E000717412 /* AddAndDeleteViewController.m in Sources */,
-				4C146B8C141B50E000717412 /* DetailAndImageViewController.m in Sources */,
 				4C146B8E141B50E000717412 /* GroupedViewController.m in Sources */,
 				4C146B90141B50E000717412 /* IndexedViewController.m in Sources */,
 				4C146B92141B50E000717412 /* SimpleViewController.m in Sources */,
@@ -1067,6 +1110,9 @@
 				4C146CF3141BD6A000717412 /* PresidentViewController.m in Sources */,
 				4C146CF7141C9F3C00717412 /* DictionaryEntry.m in Sources */,
 				4C146CFB141CB11F00717412 /* EntryViewController.m in Sources */,
+				528F3A1C156AE2C4003FEB2D /* PullToRefreshViewController.m in Sources */,
+				52E1F56E156AF06D00CC0A07 /* SVPullToRefresh.m in Sources */,
+				52E1F572156AF12F00CC0A07 /* PullToRefreshTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1101,7 +1147,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
@@ -1115,7 +1161,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;

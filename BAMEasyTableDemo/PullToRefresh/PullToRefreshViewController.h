@@ -1,5 +1,5 @@
 //
-//  RootViewController.h
+//  LaunchCustomObjectViewController.h
 //  BAMEasyTableDemo
 //
 //  If you use this software in your project, a credit for Barry Murphy
@@ -37,21 +37,16 @@
 
 
 #import <UIKit/UIKit.h>
+#import "BAMEasyTable.h"
 
-@interface RootViewController : UIViewController {
-    UIButton *simpleButton;
-    UIButton *groupedButton;
-    UIButton *indexedButton;
-    UIButton *detailAndImageButton;
-    UIButton *pullToRefreshButton;
-    UIButton *addAndDeleteButton;
+
+@interface PullToRefreshViewController : UIViewController <BAMEasyTableDelegate> {
+    NSMutableArray *presidents;
+    UITextView *textView;
+    UIButton *launchButton;
 }
-@property (nonatomic, retain) IBOutlet UIButton *simpleButton;
-@property (nonatomic, retain) IBOutlet UIButton *groupedButton;
-@property (nonatomic, retain) IBOutlet UIButton *indexedButton;
-@property (nonatomic, retain) IBOutlet UIButton *detailAndImageButton;
-@property (nonatomic, retain) IBOutlet UIButton *pullToRefreshButton;
-@property (nonatomic, retain) IBOutlet UIButton *addAndDeleteButton;
+@property (nonatomic, retain) IBOutlet UITextView *textView;
+@property (nonatomic, retain) IBOutlet UIButton *launchButton;
 
 - (IBAction)buttonPressed:(id)sender;
 
